@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('https://wallpaperaccess.com/full/214962.jpg')",
+        "hero-pattern": "url('./src/assets/background.jpg')",
       },
     },
   },
