@@ -138,7 +138,7 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right","tween",0.2,1)}
+        variants={slideIn("left","tween",0.2,1)}
         className=" xl:flex-1 xs:h-auto md:h-auto xl:h-auto items-center justify-center h-[350px]"
       >
         <div className='mt-20 items-center justify-center flex flex-wrap gap-10'>
