@@ -20,7 +20,7 @@ const TechnologyCard = ({index,name ,icon}) =>{
                 speed:550,
 
             }}
-            className=' bg-black rounded-[20px] py-5 px-12 min-h-[220px] flex justify-evenly items-center flex-col shadow-card'
+            className=' bg-black rounded-[20px] py-5 px-12 min-h-[220px] flex justify-evenly items-center flex-col '
             >
             <img src={icon} alt={name} className=" w-16 h-16 object-contain"/>
             <h3 className='text-white text-[20px] font-bold text-center'>{name}</h3>
