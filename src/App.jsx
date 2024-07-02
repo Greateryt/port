@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 
 //components
 
-import { About , Contact , Experience , Feedbacks , Hero , Navbar , Tech , Works , StarsCanvas  } from './components'
+import { About , Contact , Experience , Feedbacks , Hero , Navbar , Works , StarsCanvas  } from './components'
 import Expertise from "./components/Expertise"
 
 const App = () => {

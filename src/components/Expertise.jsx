@@ -10,7 +10,7 @@ const TechnologyCard = ({index,name ,icon}) =>{
     return (
         <Tilt className="xs:w-[180px] w-full">
         <motion.div
-            variants={fadeIn("left","spring",0.5*index,0.75)}
+            variants={fadeIn("left","spring",0.15*index,1)}
             className="w-full violet-gradient p-[1px] rounded-[20px] "
         >
             <div 
